@@ -56,7 +56,6 @@ namespace garantiTakip
             this.cariRaporlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriYetkiliRaporlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sonAcılanlar = new System.Windows.Forms.ToolStripMenuItem();
-            this.listeleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
@@ -76,8 +75,7 @@ namespace garantiTakip
             this.garantiVeHizmetToolStripMenuItem,
             this.sektörlerToolStripMenuItem,
             this.raporlarToolStripMenuItem,
-            this.sonAcılanlar,
-            this.listeleToolStripMenuItem});
+            this.sonAcılanlar});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
@@ -104,44 +102,42 @@ namespace garantiTakip
             // 
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.openToolStripMenuItem.Text = "Yeni Cari Ekle";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(221, 6);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saveToolStripMenuItem.Text = "Cari Düzenle";
-
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saveAsToolStripMenuItem.Text = "Cari Sil";
-
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(221, 6);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(221, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem.Text = "Ç&ıkış";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
@@ -178,7 +174,7 @@ namespace garantiTakip
             this.hizmetToolStripMenuItem1});
             this.hizmetToolStripMenuItem.Name = "hizmetToolStripMenuItem";
             this.hizmetToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
-
+            this.hizmetToolStripMenuItem.Text = "Hizmetler";
             // 
             // verilenHizmetlerToolStripMenuItem
             // 
@@ -218,19 +214,19 @@ namespace garantiTakip
             // sektörListesiToolStripMenuItem
             // 
             this.sektörListesiToolStripMenuItem.Name = "sektörListesiToolStripMenuItem";
-            this.sektörListesiToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.sektörListesiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sektörListesiToolStripMenuItem.Text = "Sektör Listesi";
             // 
             // sektörEkleToolStripMenuItem
             // 
             this.sektörEkleToolStripMenuItem.Name = "sektörEkleToolStripMenuItem";
-            this.sektörEkleToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.sektörEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sektörEkleToolStripMenuItem.Text = "Sektör Ekle";
             // 
             // sektörDüzenleToolStripMenuItem
             // 
             this.sektörDüzenleToolStripMenuItem.Name = "sektörDüzenleToolStripMenuItem";
-            this.sektörDüzenleToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.sektörDüzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sektörDüzenleToolStripMenuItem.Text = "Sektör Düzenle";
             // 
             // raporlarToolStripMenuItem
@@ -241,7 +237,6 @@ namespace garantiTakip
             this.raporlarToolStripMenuItem.Name = "raporlarToolStripMenuItem";
             this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
             this.raporlarToolStripMenuItem.Text = "Raporlar";
-    
             // 
             // cariRaporlarıToolStripMenuItem
             // 
@@ -262,12 +257,6 @@ namespace garantiTakip
             this.sonAcılanlar.Name = "sonAcılanlar";
             this.sonAcılanlar.Size = new System.Drawing.Size(110, 24);
             this.sonAcılanlar.Text = "Son Açılanlar";
-            // 
-            // listeleToolStripMenuItem
-            // 
-            this.listeleToolStripMenuItem.Name = "listeleToolStripMenuItem";
-            this.listeleToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
-            this.listeleToolStripMenuItem.Text = "Listele";
             // 
             // statusStrip
             // 
@@ -348,7 +337,6 @@ namespace garantiTakip
         private System.Windows.Forms.ToolStripMenuItem sonAcılanlar;
         private System.Windows.Forms.ToolStripMenuItem cariRaporlarıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem müşteriYetkiliRaporlarıToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listeleToolStripMenuItem;
     }
 }
 

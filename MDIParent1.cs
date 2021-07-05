@@ -47,6 +47,13 @@ namespace garantiTakip
             childForm.Show();
         }
 
+        private void raporlarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
         private void garantiVeHizmetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GarantiDurumFrm childForm = new GarantiDurumFrm();
@@ -73,6 +80,14 @@ namespace garantiTakip
             childForm.Show();
             
         }
+
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
     
@@ -136,13 +151,7 @@ namespace garantiTakip
         //    childfrm.Text = "Pencere" + childFormNumber++;
         //    childfrm.Show();
         //}
-        private void newToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void raporlarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+      
+        
     }
 }
