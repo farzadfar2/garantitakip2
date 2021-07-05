@@ -242,7 +242,7 @@ namespace garantiTakip
             this.raporlarToolStripMenuItem.Name = "raporlarToolStripMenuItem";
             this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
             this.raporlarToolStripMenuItem.Text = "Raporlar";
-            this.raporlarToolStripMenuItem.Click += new System.EventHandler(this.raporlarToolStripMenuItem_Click);
+    
             // 
             // cariRaporlarıToolStripMenuItem
             // 

@@ -143,8 +143,6 @@ namespace garantiTakip
         //private void raporlarToolStripMenuItem_Click(object sender, EventArgs e)
         //{
 
-
-
         //}
     }
 }
