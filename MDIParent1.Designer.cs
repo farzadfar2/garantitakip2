@@ -119,14 +119,14 @@ namespace garantiTakip
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.saveToolStripMenuItem.Text = "Cari Düzenle";
-            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.saveAsToolStripMenuItem.Text = "Cari Sil";
-            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
+
             // 
             // toolStripSeparator4
             // 
@@ -178,8 +178,7 @@ namespace garantiTakip
             this.hizmetToolStripMenuItem1});
             this.hizmetToolStripMenuItem.Name = "hizmetToolStripMenuItem";
             this.hizmetToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
-            this.hizmetToolStripMenuItem.Text = "Hizmetler";
-            this.hizmetToolStripMenuItem.Click += new System.EventHandler(this.hizmetToolStripMenuItem_Click);
+
             // 
             // verilenHizmetlerToolStripMenuItem
             // 
@@ -269,7 +268,6 @@ namespace garantiTakip
             this.listeleToolStripMenuItem.Name = "listeleToolStripMenuItem";
             this.listeleToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
             this.listeleToolStripMenuItem.Text = "Listele";
-            this.listeleToolStripMenuItem.Click += new System.EventHandler(this.listeleToolStripMenuItem_Click);
             // 
             // statusStrip
             // 

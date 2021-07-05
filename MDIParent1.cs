@@ -101,48 +101,48 @@ namespace garantiTakip
             childForm.Show();
         }
 
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmGuncelle childfrm = new frmGuncelle();
-            childfrm.MdiParent = this;
-            childfrm.WindowState = FormWindowState.Maximized;
-            childfrm.Text = "Pencere" + childFormNumber++;
-            childfrm.Show();
-        }
-
-        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmSil childfrm = new frmSil();
-            childfrm.MdiParent = this;
-            childfrm.WindowState = FormWindowState.Maximized;
-            childfrm.Text = "Pencere" + childFormNumber++;
-            childfrm.Show();
-        }
-
-        private void listeleToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmListele childfrm = new frmListele();
-            childfrm.MdiParent = this;
-            childfrm.WindowState = FormWindowState.Maximized;
-            childfrm.Text = "Pencere" + childFormNumber++;
-            childfrm.Show();
-        }
-
-        private void hizmetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmHizmetTuru childfrm = new frmHizmetTuru();
-            childfrm.MdiParent = this;
-            childfrm.WindowState = FormWindowState.Maximized;
-            childfrm.Text = "Pencere" + childFormNumber++;
-            childfrm.Show();
-        }
-        //private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        //private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         //{
-
+        //    frmGuncelle childfrm = new frmGuncelle();
+        //    childfrm.MdiParent = this;
+        //    childfrm.WindowState = FormWindowState.Maximized;
+        //    childfrm.Text = "Pencere" + childFormNumber++;
+        //    childfrm.Show();
         //}
-        //private void raporlarToolStripMenuItem_Click(object sender, EventArgs e)
+
+        //private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         //{
-
+        //    frmSil childfrm = new frmSil();
+        //    childfrm.MdiParent = this;
+        //    childfrm.WindowState = FormWindowState.Maximized;
+        //    childfrm.Text = "Pencere" + childFormNumber++;
+        //    childfrm.Show();
         //}
+
+        //private void listeleToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    frmListele childfrm = new frmListele();
+        //    childfrm.MdiParent = this;
+        //    childfrm.WindowState = FormWindowState.Maximized;
+        //    childfrm.Text = "Pencere" + childFormNumber++;
+        //    childfrm.Show();
+        //}
+
+        //private void hizmetToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+        //    frmHizmetTuru childfrm = new frmHizmetTuru();
+        //    childfrm.MdiParent = this;
+        //    childfrm.WindowState = FormWindowState.Maximized;
+        //    childfrm.Text = "Pencere" + childFormNumber++;
+        //    childfrm.Show();
+        //}
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void raporlarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
