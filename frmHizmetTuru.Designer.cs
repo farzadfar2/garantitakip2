@@ -40,6 +40,7 @@ namespace garantiTakip
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,11 +149,21 @@ namespace garantiTakip
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(689, 149);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(103, 42);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // frmHizmetTuru
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 548);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
@@ -188,5 +199,6 @@ namespace garantiTakip
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
