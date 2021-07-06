@@ -216,7 +216,7 @@ namespace garantiTakip
             ckontrol = true;
             hkontrol = false;
             kontrol = false;
-            mkontrol = false;
+            mkontrol = false;         
         }
     }
 }
